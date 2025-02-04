@@ -78,26 +78,26 @@
 
 ### 管理员
 
-![登录页面](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/1.png)
+![登录页面](./images/1.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/2.png)
+![学生管理页面](./images/2.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/3.png)
+![课程信息页面](./images/3.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/4.png)
+![安排课程](./images/4.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/5.png)
+![成绩量化标准页面](./images/5.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/6.png)
+![成绩管理页面](./images/6.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/7.png)
+![学生成绩柱状图展示](./images/7.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/7-1.png)
+![导入成绩](./images/7-1.png)
 
 ### 学生
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/8.png)
+![成绩查询页面](./images/8.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/9.png)
+![学生成绩排名柱状图](./images/9.png)
 
-![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/10.png)
+![学生平时成绩明细展示](./images/10.png)

@@ -1,0 +1,52 @@
+server:
+  port: 8001
+  servlet:
+    session:
+      timeout: 30m  # 设置 Session 超时时间为 30 分钟
+
+spring:
+  #数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/score_manage?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  #文件上传配置
+  servlet:
+    multipart:
+      max-file-size: 20MB      # 最大文件大小
+      max-request-size: 50MB   # 最大请求大小
+
+#mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath:mapper/**/*.xml  # mapper映射文件（默认存在）
+  configuration:
+    map-underscore-to-camel-case: true # 是否开启下划线与驼峰的映射（默认打开）
+    cache-enabled: false # 是否开启二级缓存（默认关闭）
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #开启日志
+  global-config:      # 全局配置
+    db-config:
+      id-type: auto #id+1自增策略（默认assign_id雪花算法）
+      update-strategy: not_empty #null与''都忽略（默认not_null:只忽略null）
+      # 下面的配置：将所有的删除语句更改为修改语句
+      #logic-delete-field: isDelete # 是否删除；全局逻辑删除的实体字段名，字段类型可以是boolean、integer
+      #logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      #logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+
+sa-token:
+  # token 名称（同时也是 cookie 名称）
+  token-name: Authorization
+  # token前缀
+  token-prefix: Bearer
+  # token 有效期（单位：秒） 默认30天，-1 代表永久有效
+  timeout: 3600
+  # token 最低活跃频率（单位：秒），如果 token 超过此时间没有访问系统就会被冻结，默认-1 代表不限制，永不冻结
+  active-timeout: -1
+  # 是否允许同一账号多地同时登录 （为 true 时允许一起登录, 为 false 时新登录挤掉旧登录）
+  is-concurrent: true
+  # 在多人登录同一账号时，是否共用一个 token （为 true 时所有登录共用一个 token, 为 false 时每次登录新建一个 token）
+  is-share: true
+  # token 风格（默认可取值：uuid、simple-uuid、random-32、random-64、random-128、tik）
+  token-style: random-32
+  # 是否输出操作日志
+  is-log: true

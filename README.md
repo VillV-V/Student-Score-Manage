@@ -78,26 +78,26 @@
 
 ### 管理员
 
-![image](images/1.png)
+![登录页面](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/1.png)
 
-![image](./images/2.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/2.png)
 
-![image](./images/3.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/3.png)
 
-![image](./images/4.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/4.png)
 
-![image](./images/5.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/5.png)
 
-![image](./images/6.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/6.png)
 
-![image](./images/7.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/7.png)
 
-![image](./images/7-1.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/7-1.png)
 
 ### 学生
 
-![image](./images/8.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/8.png)
 
-![image](./images/9.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/9.png)
 
-![image](./images/10.png)
+![image](https://github.com/VillV-V/Student-Score-Manage/blob/master/images/10.png)
